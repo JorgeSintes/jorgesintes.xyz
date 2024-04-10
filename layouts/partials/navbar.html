@@ -1,0 +1,22 @@
+<nav>
+    <ul>
+        <li><img src="/logo.svg" alt="my logo"></li>
+        <li><strong>{{ .Site.Title }}</strong></li>
+    </ul>
+    <ul>
+        {{ $pages := where .Site.RegularPages "Type" "in" (slice "page") }}
+        {{ range $pages }}
+        {{ if not (eq .Title "_index.md") }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+        {{ end }}
+        {{ $sections := .Site.Home.Sections }}
+        {{ range $sections }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>

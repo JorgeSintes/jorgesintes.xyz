@@ -1,0 +1,100 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+	<title>Jorge Sintes</title>
+	<link>http://localhost:1313/categories/</link>
+	<description>Recent content in Categories on Jorge Sintes</description>
+	<generator>Hugo -- gohugo.io</generator>
+	<language>en-us</language>
+    
+        <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+	
+	
+	<item>
+		<title>My First Post</title>
+		<link>http://localhost:1313/posts/my-first-post/</link>
+		<pubDate>Tue, 09 Apr 2024 23:26:00 +0200</pubDate>
+		
+		<guid>http://localhost:1313/posts/my-first-post/</guid>
+		<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
+&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
+</description>
+	</item>
+	
+	<item>
+		<title>About me</title>
+		<link>http://localhost:1313/about/</link>
+		<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+		
+		<guid>http://localhost:1313/about/</guid>
+		<description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a Spanish &lt;strong&gt;Computational Mathematician&lt;/strong&gt; with a strong background in Python, specialized in &lt;strong&gt;artificial intelligence&lt;/strong&gt; and &lt;strong&gt;deep learning&lt;/strong&gt;. I also have a passion for software engineering and enjoy spending time tinkering with different new technologies and techniques in my free time, like the website you&amp;rsquo;re reading now! I have a background in General Engineering and I play the trombone and guitar for fun.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;technical-skills&#34;&gt;Technical skills&lt;/h2&gt;
+&lt;h3 id=&#34;programming-languages&#34;&gt;Programming languages&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Python&lt;/li&gt;
+&lt;li&gt;Matlab&lt;/li&gt;
+&lt;li&gt;C / C++&lt;/li&gt;
+&lt;li&gt;Bash&lt;/li&gt;
+&lt;li&gt;A little bit of HTML/CSS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;skills&#34;&gt;Skills&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong &lt;strong&gt;mathematical understanding&lt;/strong&gt; of AI and Deep Learning. Proficiency with python libraries like &lt;strong&gt;Pytorch&lt;/strong&gt;, &lt;strong&gt;Numpy&lt;/strong&gt;, Pandas, TensorFlow&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Savvy on &lt;strong&gt;Linux&lt;/strong&gt; (I use it as my daily-driver), and comfortable with dev-ops tools like &lt;strong&gt;Docker&lt;/strong&gt; and &lt;strong&gt;Git&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Self-hosting&lt;/strong&gt; a password manager, a Jitsi server and this website on a &lt;strong&gt;Raspberry Pi&lt;/strong&gt; at home.&lt;/li&gt;
+&lt;li&gt;Interest for low-level computer science topics: algorithms and data structures, high performance computing with &lt;strong&gt;OpenMP&lt;/strong&gt; and &lt;strong&gt;CUDA&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
+&lt;p&gt;Here are some of the projects I&amp;rsquo;ve done in the past or I&amp;rsquo;m currently doing now:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JorgeSintes/sudoku_project&#34;&gt;Sudoku Solver&lt;/a&gt; &lt;br&gt;
+Toy project where I build a web-app solution that lets you upload a picture of a sudoku and solves it. Currently in development.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JorgeSintes/advent_of_code_2022&#34;&gt;Advent of Code 2022&lt;/a&gt; &lt;br&gt;
+Solving the problems of &lt;a href=&#34;https://adventofcode.com/&#34;&gt;Advent of Code&lt;/a&gt; to start familiarizing myself with &lt;code&gt;C++&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JorgeSintes/CNN_EEG_signals&#34;&gt;Bayesian Methods for Electroencephalogram (EEG) Decoding&lt;/a&gt; &lt;br&gt;
+Implementing and comparing the performance of different Bayesian Neural Networks (Ensembles/SWA/SWAG/MultiSWAG) with state-of-the-art deep learning techniques in the task of classifying EEG readings while the test subjects imagines performing a task.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/JorgeSintes/Advanced_Machine_Learning&#34;&gt;Time Series Anomaly Detection with Variational AutoEncoder and GRU&lt;/a&gt; &lt;br&gt;
+Project for DTU&amp;rsquo;s course Advanced Machine Learning researching the potential of using Variational Autoencoders in combination with RNNs for anomaly detection on time-series data. Download the paper &lt;a href=&#34;https://github.com/JorgeSintes/Advanced_Machine_Learning/raw/master/Time_Series_Anomaly_Detection_VAE_GRU.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;experience&#34;&gt;Experience&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Master Thesis Student&lt;/strong&gt; at &lt;a href=&#34;https://grazper.com/&#34;&gt;Grazper&lt;/a&gt;: &lt;em&gt;07/2022 - Present&lt;/em&gt; &lt;br&gt;
+Writing my Master Thesis about improving 3D human pose estimation methods with the help of an IoT sole pressure system in the shoes to improve the accuracy of the predictions in cases where less cameras are involved. Building a supervised model that predicts them based on the pose itself so it can be incorporated into a real-life application without the need for the device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Data Science Student&lt;/strong&gt; at &lt;a href=&#34;https://www.novonordisk.com/&#34;&gt;Novo Nordisk&lt;/a&gt;: &lt;em&gt;06/2021 - 07/2022&lt;/em&gt; &lt;br&gt;
+I was responsible for data processing, analysis and visualization of the HR department of Novo&amp;rsquo;s main production site.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Teaching Assistant&lt;/strong&gt; at &lt;a href=&#34;https://www.dtu.dk/&#34;&gt;DTU&lt;/a&gt; &lt;em&gt;02/2021 - 06/2021&lt;/em&gt; &lt;br&gt;
+Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I taught a group of 40+ students during weekly labs.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Research Intern&lt;/strong&gt; at &lt;a href=&#34;https://www.upv.es/&#34;&gt;UPV&lt;/a&gt; &lt;em&gt;09/2018 - 07/2019&lt;/em&gt;&lt;br&gt;
+Helped develop novel non-invasive fault detection techniques for electrical machines. Wrote my Bachelor Thesis on the application of dispersion magnetic flux analysis techniques to the detection of rotor asymmetries in wound rotor induction machines.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.dtu.dk/english/education/graduate/msc-programmes/mathematical-modelling-and-computation&#34;&gt;MSc in Mathematical Modelling and Computation&lt;/a&gt; at &lt;a href=&#34;https://www.dtu.dk/&#34;&gt;DTU&lt;/a&gt;: &lt;em&gt;09/2020 - Present&lt;/em&gt;&lt;br&gt;
+Worked on courses and group projects involving different topics in machine learning, computer science and applied mathematics: deep learning, bayesian machine learning, MLOps, algorithms and data structures, high performance computing, dynamical systems theory, stochastic processes, optimization&amp;hellip;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.upv.es/titulaciones/MUII/index-en.html&#34;&gt;BSc + MSc in General Engineering&lt;/a&gt; at &lt;a href=&#34;https://www.upv.es/&#34;&gt;UPV&lt;/a&gt;: &lt;em&gt;09/2015 - 07/2020&lt;/em&gt;&lt;br&gt;
+Studied a broad variety of courses in general engineering competences, including maths, physics, statistics, thermodynamics, materials, mechanics, electronics, automatics and electrical engineering, among others.
+Specialized in Electrical Engineering thanks to the research internship I did in the department of Electrical Engineering.
+Additionally, I studied Jazz at the same time at Sedajazz music academy in Valencia.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+	</item>
+	
+	</channel>
+</rss>

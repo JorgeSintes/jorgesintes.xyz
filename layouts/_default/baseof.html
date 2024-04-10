@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+
+<head>
+    <title>{{ if not .IsHome}}{{ .Title | title }} | {{ end }}{{ .Site.Title}}</title>
+    <link rel="stylesheet" href="/pico.lime.min.css">
+    <link rel="stylesheet" href="/extra.css">
+</head>
+
+<body>
+    <main class="container">
+        {{ partial "navbar.html" . }}
+        <header>
+            <h1 id="tag_{{ .Title }}">{{ block "title" . }} {{ .Title }}{{ end }}</h1>
+        </header>
+        <hr>
+        <section>
+            {{ block "main" . }}
+            {{ .Content }}
+            {{ end }}
+            {{ if .Param "nextprev" }}{{ partial "nextprev.html" . }} {{ end }}
+            {{ if .Param "taglist" }}{{ partial "taglist.html" . }} {{ end }}
+        </section>
+    </main>
+    {{ block "footer" . }}
+    <footer>
+        <a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+    </footer>
+    {{ end }}
+</body>
+
+</html>

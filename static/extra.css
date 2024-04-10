@@ -1,0 +1,27 @@
+nav img {
+    height: 4rem;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column75 {
+    width: 66%;
+}
+
+.column25 {
+    width: 25%;
+}
+
+.toc {
+    position: sticky;
+    top: 5rem;
+}
+
+.toc li ul {
+    padding-left: 1rem;
+    font-size: smaller;
+}

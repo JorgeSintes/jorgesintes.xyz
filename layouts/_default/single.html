@@ -1,0 +1,19 @@
+{{ define "title" }}
+{{ .Title }}
+{{ end }}
+{{ define "main" }}
+<div class="columns">
+    <div class="column75">
+        <section class="container">
+            {{ .Content }}
+        </section>
+    </div>
+    <div class="column25">
+        <aside class="toc">
+            <article>
+                {{ .TableOfContents }}
+            </article>
+        </aside>
+    </div>
+</div>
+{{ end }}

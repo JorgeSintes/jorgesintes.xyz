@@ -1,0 +1,4 @@
+baseURL = 'https://jorgesintes.xyz/'
+languageCode = 'en-us'
+title = 'Jorge Sintes'
+theme = 'lugo'
