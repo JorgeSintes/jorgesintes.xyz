@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<div class="home-page-container">
+    <img src="/profile_picture.jpeg" alt="Picture of me">
+    <h1 class="main-title">{{ .Site.Title }}</h1>
+    <h2 class="subtitle"> {{ .Site.Params.subtitle }} </h2>
+
+    <div class="home-content">
+        {{ .Content }}
+    </div>
+</div>
+
+
+{{ end }}

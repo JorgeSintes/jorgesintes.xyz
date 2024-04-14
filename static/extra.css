@@ -1,5 +1,84 @@
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-wrap {
+    flex-grow: 1;
+}
+
+/* Nav bar */
 nav img {
-    height: 4rem;
+    width: 5rem;
+}
+
+nav a {
+    font-size: larger;
+}
+
+/* Footer */
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer-content .left-text {
+    justify-self: start;
+}
+
+.footer-content .links {
+    display: flex;
+    justify-content: space-between;
+    width: 12rem;
+}
+
+.footer-content svg {
+    height: 2rem;
+}
+
+.footer-content .right-text {
+    justify-self: end;
+}
+
+.grey-text {
+    color: var(--pico-secondary-hover)
+}
+
+/* Home page */
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page-container img {
+    border-radius: 50%;
+    width: 40%;
+    margin: 20px;
+}
+
+.main-title {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0.4rem;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: var(--pico-secondary-hover);
+}
+
+.home-content {
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    width: 75%;
 }
 
 .columns {
@@ -19,6 +98,8 @@ nav img {
 .toc {
     position: sticky;
     top: 5rem;
+    border-left: 1px solid var(--pico-secondary-hover);
+    padding-left: 1rem;
 }
 
 .toc li ul {

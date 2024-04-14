@@ -8,25 +8,21 @@
 </head>
 
 <body>
-    <main class="container">
+    <main class="container page-container">
         {{ partial "navbar.html" . }}
         <header>
             <h1 id="tag_{{ .Title }}">{{ block "title" . }} {{ .Title }}{{ end }}</h1>
         </header>
         <hr>
-        <section>
+        <section class="content-wrap">
             {{ block "main" . }}
             {{ .Content }}
             {{ end }}
             {{ if .Param "nextprev" }}{{ partial "nextprev.html" . }} {{ end }}
             {{ if .Param "taglist" }}{{ partial "taglist.html" . }} {{ end }}
         </section>
+        {{ partial "footer.html" . }}
     </main>
-    {{ block "footer" . }}
-    <footer>
-        <a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
-    </footer>
-    {{ end }}
 </body>
 
 </html>
