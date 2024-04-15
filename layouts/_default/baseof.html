@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language }}">
+<html lang="{{ .Site.Language }}" data-theme="dark">
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <title>{{ if not .IsHome}}{{ .Title | title }} | {{ end }}{{ .Site.Title}}</title>
     <link rel="stylesheet" href="/pico.lime.min.css">
     <link rel="stylesheet" href="/extra.css">
@@ -10,9 +14,11 @@
 <body>
     <main class="container page-container">
         {{ partial "navbar.html" . }}
+        {{ if not .IsHome }}
         <header>
             <h1 id="tag_{{ .Title }}">{{ block "title" . }} {{ .Title }}{{ end }}</h1>
         </header>
+        {{ end }}
         <hr>
         <section class="content-wrap">
             {{ block "main" . }}
