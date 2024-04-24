@@ -180,9 +180,23 @@ nav a {
     font-size: smaller;
 }
 
-pre {
-    white-space: pre-wrap;
-    word-wrap: break-word;
+#scroll-to-top-container {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    /* bottom: -100px; */
+    top: 120dvh;
+    /* Start off-screen */
+    transition: top 0.5s ease;
+    /* Smooth transition for the bottom property */
+}
+
+#scroll-to-top-btn {
+    border-radius: 50%;
+}
+
+#scroll-to-top-btn svg {
+    width: 1rem;
 }
 
 @media (min-width: 1024px) {
@@ -208,7 +222,7 @@ pre {
 
     .toc {
         position: sticky;
-        top: 15vh;
+        top: 15dvh;
         border-left: 1px solid var(--pico-muted-color);
         padding-left: 1rem;
     }
@@ -243,5 +257,10 @@ pre {
         border-left: none;
         border-top: 1px solid var(--pico-muted-color);
         border-bottom: 1px solid var(--pico-muted-color);
+    }
+
+    #scroll-to-top-container {
+        position: fixed;
+        right: 10%;
     }
 }
