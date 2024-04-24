@@ -1,5 +1,5 @@
 ---
-title: About me
+title: About
 showDate: false
 showAuthor: false
 layout: "profile"

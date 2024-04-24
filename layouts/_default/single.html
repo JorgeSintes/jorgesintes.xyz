@@ -4,6 +4,11 @@
 {{ define "main" }}
 <div class="columns">
     <div class="column75">
+        {{ with .Resources.GetMatch "thumbnail.*" }}
+            <section>
+                <img class="thumbnail" src="{{ .RelPermalink }}" alt="Thumbnail for {{ $.Title }}">
+            </section>
+        {{ end }}
         <section class="container">
             {{ .Content }}
         </section>

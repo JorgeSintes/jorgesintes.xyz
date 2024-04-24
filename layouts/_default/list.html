@@ -1,0 +1,11 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+{{ define "main" -}}
+{{ .Content }}
+<div class="article-links">
+    {{- range.Pages }}
+        {{ partial "article-link.html" . }}
+        {{ end }}
+</div>
+{{- end }}

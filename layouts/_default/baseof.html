@@ -9,6 +9,20 @@
     <title>{{ if not .IsHome}}{{ .Title | title }} | {{ end }}{{ .Site.Title}}</title>
     <link rel="stylesheet" href="/pico.lime.min.css">
     <link rel="stylesheet" href="/extra.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css">
+
+    <!-- Include Highlight.js Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    
+    <script>
+        // Initialize Highlight.js
+        document.addEventListener('DOMContentLoaded', (event) => {
+            hljs.configure({languages: ['bash', 'c']});
+            hljs.highlightAll();
+        });
+    </script>
+
 </head>
 
 <body>

@@ -21,7 +21,7 @@ const themeToggle = {
 
     // Initialize toggle button
     initToggle() {
-        const toggleButton = document.querySelector("div[data-theme-toggle]");
+        const toggleButton = document.querySelector("a[data-theme-toggle]");
         toggleButton.addEventListener("click", () => {
             this.scheme = this.scheme === "dark" ? "light" : "dark";  // Toggle scheme
         }, false);

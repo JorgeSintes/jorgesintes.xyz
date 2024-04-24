@@ -1,1 +1,3 @@
-I'm very goood thank
+---
+title: "Posts"
+---
