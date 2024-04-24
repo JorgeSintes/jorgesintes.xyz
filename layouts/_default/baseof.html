@@ -3,38 +3,28 @@
 
 <head>
     <meta chasrset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <title>{{ if not .IsHome}}{{ .Title | title }} | {{ end }}{{ .Site.Title}}</title>
     <link rel="stylesheet" href="/pico.lime.min.css">
+    <link rel="stylesheet" href="/catppuccin-latte.css" id="chromaLight" disabled>
+    <link rel="stylesheet" href="/catppuccin-macchiato.css" id="chromaDark" disabled>
     <link rel="stylesheet" href="/extra.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/atom-one-dark.min.css">
-
-    <!-- Include Highlight.js Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
-    
-    <script>
-        // Initialize Highlight.js
-        document.addEventListener('DOMContentLoaded', (event) => {
-            hljs.configure({languages: ['bash', 'c']});
-            hljs.highlightAll();
-        });
-    </script>
-
 </head>
 
 <body>
     <main class="container page-container">
         {{ partial "navbar.html" . }}
+        <hr>
         {{ if not .IsHome }}
         <header>
             <h1 id="tag_{{ .Title }}">{{ block "title" . }} {{ .Title }}{{ end }}</h1>
+            <hr>
         </header>
         {{ end }}
-        <hr>
         <section class="content-wrap">
             {{ block "main" . }}
             {{ .Content }}

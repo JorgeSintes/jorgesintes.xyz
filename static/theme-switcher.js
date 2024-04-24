@@ -35,6 +35,15 @@ const themeToggle = {
         const notVisible = value === "dark" ? "moon-icon" : "sun-icon";
         document.getElementById(visible).style.display = "block";
         document.getElementById(notVisible).style.display = "none";
+        if (this.scheme === "dark") {
+            document.getElementById("chromaLight").disabled = true;
+            document.getElementById("chromaDark").disabled = false;
+        }
+        if (this.scheme === "light") {
+            document.getElementById("chromaLight").disabled = false;
+            document.getElementById("chromaDark").disabled = true;
+        }
+
     },
 
     // Get scheme

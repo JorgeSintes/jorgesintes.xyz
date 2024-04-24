@@ -2,18 +2,16 @@
 {{ .Title }}
 {{ end }}
 {{ define "main" }}
-<div class="columns">
-    <div class="column75">
-        {{ with .Resources.GetMatch "thumbnail.*" }}
-            <section>
-                <img class="thumbnail" src="{{ .RelPermalink }}" alt="Thumbnail for {{ $.Title }}">
-            </section>
-        {{ end }}
-        <section class="container">
-            {{ .Content }}
-        </section>
+<div class="article-grid container">
+    {{ with .Resources.GetMatch "thumbnail.*" }}
+        <div class="thumbnail-container">
+            <img class="thumbnail-img" src="{{ .RelPermalink }}" alt="Thumbnail for {{ $.Title }}">
+        </div>
+    {{ end }}
+    <div class="text-container">
+        {{ .Content }}
     </div>
-    <div class="column25">
+    <div class="toc-container">
         <aside class="toc">
             {{ .TableOfContents }}
         </aside>

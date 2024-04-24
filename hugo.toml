@@ -3,3 +3,6 @@ languageCode = 'en-us'
 title = 'Jorge Sintes'
 [params]
 subtitle = 'ML Software Developer'
+[markup]
+    [markup.highlight]
+        noClasses=false
