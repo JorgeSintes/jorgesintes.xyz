@@ -9,13 +9,13 @@ To set up and run the blog locally, make sure you have [Hugo](https://gohugo.io/
 git clone https://github.com/JorgeSintes/jorgesintes.xyz.git
 cd jorgesintes.xyz
 ```
-2. Start the Hugo server
+2. Start the Hugo server:
 ```bash
 hugo server
 ```
 This will start the local development server. Visit `http://localhost:1313` to view it.
 
-3. Create new posts by adding markdown files to `content/posts`, or adding folders with an `index.md` and a `thumbnail.jpg`. Hugo will automaticallyrender these in the blog post.
+3. Create new posts by adding markdown files to `content/posts`, or adding folders with an `index.md` and a `thumbnail.jpg`. Hugo will automatically render these in the blog post.
 
 ## Deployment
 For deployment, just run:
