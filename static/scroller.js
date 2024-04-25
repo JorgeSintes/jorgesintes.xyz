@@ -1,4 +1,4 @@
-var buttonContainer = document.getElementById("scroll-to-top-container");
+
 
 window.onscroll = function () { scrollFunction() };
 
@@ -10,8 +10,12 @@ function scrollFunction() {
     }
 }
 
-buttonContainer.onclick = function () {
-    scrollToTop();
+var buttonContainer = document.getElementById("scroll-to-top-container");
+
+if (buttonContainer) {
+    buttonContainer.onclick = function () {
+        scrollToTop();
+    }
 }
 
 function scrollToTop() {
