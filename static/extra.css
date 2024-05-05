@@ -205,7 +205,7 @@ nav a {
         grid-template-areas:
             "thumbnail toc"
             "thetext toc";
-        gap: var(--pico-block-spacing-vertical);
+        gap: calc(var(--pico-block-spacing-vertical) * 2);
     }
 
     .thumbnail-container {
@@ -237,7 +237,7 @@ nav a {
             "thumbnail"
             "toc"
             "thetext";
-        gap: calc(var(--pico-block-spacing-vertical)*2);
+        gap: calc(var(--pico-block-spacing-vertical) * 2);
     }
 
     .thumbnail-container {
@@ -263,4 +263,24 @@ nav a {
         position: fixed;
         right: 10%;
     }
+}
+
+/* Copy button */
+.code-wrapper {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-size: 0.9rem;
+
+    top: 0px;
+    right: 0px;
+}
+
+.copy-button svg {
+    width: .9rem;
 }
