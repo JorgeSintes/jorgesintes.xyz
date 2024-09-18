@@ -39,7 +39,7 @@ Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I tau
 #### Languages
 {{< multicolumnlist >}}
 - **Python**
-- **C / C++**
+- **C/C++**
 - **HTML/CSS**
 - **TypeScript/JavaScript**
 - **LaTeX**
@@ -67,10 +67,10 @@ Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I tau
 {{< multicolumnlist >}}
 - **Flask**
 - **FastApi**
-- **Websockets**
+- **WebSockets**
 {{< /multicolumnlist >}}
 
-#### Devops
+#### DevOps
 {{< multicolumnlist >}}
 - **Docker**
 - **Git**
