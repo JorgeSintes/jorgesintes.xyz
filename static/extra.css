@@ -161,7 +161,7 @@ nav a {
 
 .home-content {
     margin-top: 1.5rem;
-    text-align: center;
+    text-align: justify;
     font-size: 1.2rem;
     width: 75%;
 }
@@ -283,4 +283,9 @@ nav a {
 
 .copy-button svg {
     width: .9rem;
+}
+
+.multi-column-list ul {
+    column-count: 2;
+    column-width: 200px;
 }

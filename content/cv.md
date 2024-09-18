@@ -1,11 +1,11 @@
 ---
-title: About
+title: CV
 showDate: false
 showAuthor: false
 layout: "profile"
 showTableOfContents: true
 showReadingTime: false
-baseURL: "https://jorgesintes.xyz/about/"
+baseURL: "https://jorgesintes.xyz/cv/"
 ---
 
 ## Experience
@@ -37,65 +37,61 @@ Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I tau
 
 ## Technical skills
 #### Languages
-{{< columns >}}
+{{< multicolumnlist >}}
 - **Python**
 - **C / C++**
 - **HTML/CSS**
 - **TypeScript/JavaScript**
-{{< column >}}
 - **LaTeX**
 - **Matlab**
 - **Bash**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 #### Machine learning
-{{< columns >}}
+{{< multicolumnlist >}}
 - **PyTorch**
 - **PyTorch Lightning**
 - **MLflow**
-{{< column >}}
 - **OpenCV**
 - **Scikit-learn**
 - **Fiftyone**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 #### Numerical
-{{< columns >}}
+{{< multicolumnlist >}}
 - **Numpy**
-{{< column >}}
 - **Scipy**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 #### Networking
-{{< columns >}}
+{{< multicolumnlist >}}
 - **Flask**
 - **FastApi**
-{{< column >}}
 - **Websockets**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 #### Devops
-{{< columns >}}
+{{< multicolumnlist >}}
 - **Docker**
 - **Git**
 - **GitHub Actions**
-{{< column >}}
 - **Gitea** (packages)
 - **Linux**
 - **Vim**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 ##### Data viz
-{{< columns >}}
+{{< multicolumnlist >}}
 - **Matplotlib**
 - **Plotly/Dash**
-{{< column >}}
 - **Pandas**
-{{< endcolumns >}}
+{{< /multicolumnlist >}}
 
 
 #### Frontend
+{{< multicolumnlist >}}
 - **VueJS**
+{{< /multicolumnlist >}}
 
 --- 
 

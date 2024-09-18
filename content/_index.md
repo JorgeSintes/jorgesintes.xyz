@@ -1,3 +1,3 @@
-Hello, there! I'm a Spanish computational mathematician, general engineer and musician based in Copenhagen. I specialize in deep learning and have a passion for software engineering. 
+**Hello there!** I'm a Spanish computational mathematician, general engineer, and musician based in Copenhagen, specializing in deep learning with a strong passion for software engineering.
 
-This is my website, where I'll regularly post about my experiences and insights. I hope you find my posts informative and helpful and please, don't hesitate to reach out with any questions or comments. Thanks for visiting!
+Welcome to my website! Here, I share my experiences and insights, and I hope you'll find my posts both informative and helpful. Feel free to reach out with any questions or comments—I'd love to hear from you. Thanks for stopping by!
