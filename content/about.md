@@ -8,57 +8,113 @@ showReadingTime: false
 baseURL: "https://jorgesintes.xyz/about/"
 ---
 
-## Introduction
-I'm a Spanish **Computational Mathematician** with a strong background in Python, specialized in **artificial intelligence** and **deep learning**. I also have a passion for software engineering and enjoy spending time tinkering with different new technologies and techniques in my free time, like the website you're reading now! I have a background in General Engineering and I play the trombone and guitar for fun.
+## Experience
+### [Grazper](https://grazper.com/)
+- **Software developer**: _04/2023 - Present_
+    - Responsible for developing Grazper’s model training pipeline, training and optimizing pose estimation and box detection models central to our human pose recognition system.
+
+    - Developed and maintained a 3D human-pose annotation web application, now actively used by annotators to label our in-house dataset.
+
+    - Built an auto-annotation system using state-of-the-art models and postprocessing to accelerate the annotation process.
+
+    - Automated key steps in the recording pipeline (actor registration, video export, and auto-annotation) through custom scripts and applications.
+
+    - Led the migration to GitHub, establishing reproducible test environments for Grazper’s CI/CD pipelines on self-hosted GitHub runners. Deployed a self-hosted package registry for managing Python and npm packages, and Docker images, improving significantly the development process of the entire company.
+
+- **Master Thesis Student**: _07/2022 - 02/2023_
+    - Researched and developed a method to enhance 3D human pose estimation using an IoT sole pressure system to improve accuracy with fewer cameras. Designed a supervised model that predicts sole pressure, enabling real-world applications without the IoT device.
+
+
+### [Novo Nordisk](https://www.novonordisk.com/)
+- **Data Science Student**: _06/2021 - 07/2022_ \
+I was responsible for data processing, analysis and visualization of the HR department of Novo's main production site.
+
+### [DTU](https://www.dtu.dk/)
+- **Teaching Assistant**: _02/2021 - 06/2021_ \
+Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I taught a group of 40+ students during weekly labs.
 
 ---
 
 ## Technical skills
-### Programming languages
-- Python
-- Matlab
-- C / C++
-- Bash
-- A little bit of HTML/CSS
+#### Languages
+{{< columns >}}
+- **Python**
+- **C / C++**
+- **HTML/CSS**
+- **TypeScript/JavaScript**
+{{< column >}}
+- **LaTeX**
+- **Matlab**
+- **Bash**
+{{< endcolumns >}}
 
-### Skills
-- Strong **mathematical understanding** of AI and Deep Learning. Proficiency with python libraries like **Pytorch**, **Numpy**, Pandas, TensorFlow...
-- Savvy on **Linux** (I use it as my daily-driver), and comfortable with dev-ops tools like **Docker** and **Git**.
-- **Self-hosting** a password manager, a Jitsi server and this website on a **Raspberry Pi** at home.
-- Interest for low-level computer science topics: algorithms and data structures, high performance computing with **OpenMP** and **CUDA**.
+#### Machine learning
+{{< columns >}}
+- **PyTorch**
+- **PyTorch Lightning**
+- **MLflow**
+{{< column >}}
+- **OpenCV**
+- **Scikit-learn**
+- **Fiftyone**
+{{< endcolumns >}}
+
+#### Numerical
+{{< columns >}}
+- **Numpy**
+{{< column >}}
+- **Scipy**
+{{< endcolumns >}}
+
+#### Networking
+{{< columns >}}
+- **Flask**
+- **FastApi**
+{{< column >}}
+- **Websockets**
+{{< endcolumns >}}
+
+#### Devops
+{{< columns >}}
+- **Docker**
+- **Git**
+- **GitHub Actions**
+{{< column >}}
+- **Gitea** (packages)
+- **Linux**
+- **Vim**
+{{< endcolumns >}}
+
+##### Data viz
+{{< columns >}}
+- **Matplotlib**
+- **Plotly/Dash**
+{{< column >}}
+- **Pandas**
+{{< endcolumns >}}
+
+
+#### Frontend
+- **VueJS**
 
 --- 
 
 ## Projects
 Here are some of the projects I've done in the past or I'm currently doing now:
+- [ScaleGuru](https://scaleguru.jorgesintes.xyz/) \
+Written entirely in TypeScript. A tool designed for musicians to refine their mastery of scales and keys. The tool asks for a given scale in a specific key, hiding the scale so that users must play from memory. It allows for playback to check if the scale was played correctly (ear training) or displays the scale for users who are still learning it.
 - [Sudoku Solver](https://github.com/JorgeSintes/sudoku_project) \
 Toy project where I build a web-app solution that lets you upload a picture of a sudoku and solves it. Currently in development.
-- [Advent of Code 2022](https://github.com/JorgeSintes/advent_of_code_2022) \
-Solving the problems of [Advent of Code](https://adventofcode.com/) to start familiarizing myself with `C++`.
 - [Bayesian Methods for Electroencephalogram (EEG) Decoding](https://github.com/JorgeSintes/CNN_EEG_signals) \
 Implementing and comparing the performance of different Bayesian Neural Networks (Ensembles/SWA/SWAG/MultiSWAG) with state-of-the-art deep learning techniques in the task of classifying EEG readings while the test subjects imagines performing a task.
 - [Time Series Anomaly Detection with Variational AutoEncoder and GRU](https://github.com/JorgeSintes/Advanced_Machine_Learning) \
 Project for DTU's course Advanced Machine Learning researching the potential of using Variational Autoencoders in combination with RNNs for anomaly detection on time-series data. Download the paper [here](https://github.com/JorgeSintes/Advanced_Machine_Learning/raw/master/Time_Series_Anomaly_Detection_VAE_GRU.pdf).
 
----
-
-## Experience
-- **Master Thesis Student** at [Grazper](https://grazper.com/): _07/2022 - Present_ \
- Writing my Master Thesis about improving 3D human pose estimation methods with the help of an IoT sole pressure system in the shoes to improve the accuracy of the predictions in cases where less cameras are involved. Building a supervised model that predicts them based on the pose itself so it can be incorporated into a real-life application without the need for the device.
-
-- **Data Science Student** at [Novo Nordisk](https://www.novonordisk.com/): _06/2021 - 07/2022_ \
-I was responsible for data processing, analysis and visualization of the HR department of Novo's main production site.
-
-- **Teaching Assistant** at [DTU](https://www.dtu.dk/) _02/2021 - 06/2021_ \
-Assisting in the course 02450 - Intro to Machine Learning and Data Mining. I taught a group of 40+ students during weekly labs.
-
-- **Research Intern** at [UPV](https://www.upv.es/) _09/2018 - 07/2019_\
-Helped develop novel non-invasive fault detection techniques for electrical machines. Wrote my Bachelor Thesis on the application of dispersion magnetic flux analysis techniques to the detection of rotor asymmetries in wound rotor induction machines.
 
 ---
 
 ## Education
-- [MSc in Mathematical Modelling and Computation](https://www.dtu.dk/english/education/graduate/msc-programmes/mathematical-modelling-and-computation) at [DTU](https://www.dtu.dk/): _09/2020 - Present_\
+- [MSc in Mathematical Modelling and Computation](https://www.dtu.dk/english/education/graduate/msc-programmes/mathematical-modelling-and-computation) at [DTU](https://www.dtu.dk/): _09/2020 - 02/2023_\
 Worked on courses and group projects involving different topics in machine learning, computer science and applied mathematics: deep learning, bayesian machine learning, MLOps, algorithms and data structures, high performance computing, dynamical systems theory, stochastic processes, optimization...
 
 - [BSc + MSc in General Engineering](https://www.upv.es/titulaciones/MUII/index-en.html) at [UPV](https://www.upv.es/): _09/2015 - 07/2020_\
