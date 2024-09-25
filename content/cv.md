@@ -41,17 +41,17 @@ baseURL: "https://jorgesintes.xyz/cv/"
 
 ## Technical skills
 
-{{< icontitle iconClass="fa-solid fa-code" title="Languages" >}}
+{{< icontitle iconClass="fa-solid fa-terminal" title="Languages" >}}
 
 {{< multicolumnlist >}}
 
 - **Python**
-- **C/C++**
-- **HTML/CSS**
-- **TypeScript/JavaScript**
-- **LaTeX**
-- **Matlab**
-- **Bash**
+- TypeScript/JavaScript
+- HTML/CSS
+- C/C++
+- LaTeX
+- Matlab
+- Bash
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-circle-nodes" title="Machine learning" >}}
@@ -60,10 +60,10 @@ baseURL: "https://jorgesintes.xyz/cv/"
 
 - **PyTorch**
 - **PyTorch Lightning**
-- **MLflow**
-- **OpenCV**
-- **Scikit-learn**
-- **Fiftyone**
+- MLflow
+- OpenCV
+- Scikit-learn
+- Fiftyone
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-microchip" title="Numerical" >}}
@@ -71,7 +71,8 @@ baseURL: "https://jorgesintes.xyz/cv/"
 {{< multicolumnlist >}}
 
 - **Numpy**
-- **Scipy**
+- Autograd
+- Scipy
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-network-wired" title="Networking" >}}
@@ -79,8 +80,8 @@ baseURL: "https://jorgesintes.xyz/cv/"
 {{< multicolumnlist >}}
 
 - **Flask**
-- **FastApi**
-- **WebSockets**
+- FastApi
+- WebSockets
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-cubes" title="DevOps" >}}
@@ -90,9 +91,9 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Docker**
 - **Git**
 - **GitHub Actions**
-- **Gitea** (packages)
-- **Linux**
-- **Vim**
+- Gitea (packages)
+- Linux
+- Vim
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-chart-line" title="Data viz" >}}
@@ -100,16 +101,16 @@ baseURL: "https://jorgesintes.xyz/cv/"
 {{< multicolumnlist >}}
 
 - **Matplotlib**
-- **Plotly/Dash**
 - **Pandas**
+- Plotly/Dash
   {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-palette" title="Frontend" >}}
 
 {{< multicolumnlist >}}
 
-- **VueJS**
 - **Hugo**
+- VueJS
   {{< /multicolumnlist >}}
 
 ---
