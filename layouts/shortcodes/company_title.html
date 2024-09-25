@@ -1,0 +1,16 @@
+<div class="company-hero">
+  <img
+    src='{{ .Get "logoLight" }}'
+    alt='{{ .Get "companyName"}} logo'
+    class="company-logo company-logo-light"
+  />
+  <img
+    src='{{ .Get "logoDark" }}'
+    alt='{{ .Get "companyName"}} logo'
+    class="company-logo company-logo-dark"
+  />
+  <h3 class="company-title">
+    <a href='{{ .Get "url" }}'> {{ .Get "companyName"}} </a>
+  </h3>
+</div>
+<hr />

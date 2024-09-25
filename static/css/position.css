@@ -1,0 +1,28 @@
+html[data-theme="light"] .position-title {
+    color: hsl(51.43, 71.12%, 47.31%);
+}
+
+html[data-theme="dark"] .position-title {
+    color: hsl(51.43, 81.12%, 54.31%);
+}
+
+html[data-theme="light"] .position-duration {
+    /* color: hsl(51.43, 81.12%, 54.31%); */
+    color: #E94F37;
+}
+
+html[data-theme="dark"] .position-duration {
+    /* color: hsl(51.43, 81.12%, 54.31%); */
+    color: #E94F37;
+}
+
+.position-duration {
+    font-size: calc(var(--pico-font-size)*0.8);
+}
+
+.position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}

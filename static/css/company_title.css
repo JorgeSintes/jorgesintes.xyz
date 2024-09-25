@@ -1,0 +1,24 @@
+.company-logo {
+    display: none;
+    border-radius: calc(var(--pico-border-radius)*4);
+    height: 4rem;
+}
+html[data-theme="light"] .company-logo-light {
+  display: block;
+}
+
+html[data-theme="dark"] .company-logo-dark {
+  display: block;
+}
+
+.company-hero {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.company-title {
+    color: var(--pico-h3-color);
+    margin-bottom: 0;
+}
