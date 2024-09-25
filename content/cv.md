@@ -41,7 +41,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 
 ## Technical skills
 
-#### Languages
+{{< icontitle iconClass="fa-solid fa-code" title="Languages" >}}
 
 {{< multicolumnlist >}}
 
@@ -54,7 +54,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Bash**
   {{< /multicolumnlist >}}
 
-#### Machine learning
+{{< icontitle iconClass="fa-solid fa-circle-nodes" title="Machine learning" >}}
 
 {{< multicolumnlist >}}
 
@@ -66,7 +66,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Fiftyone**
   {{< /multicolumnlist >}}
 
-#### Numerical
+{{< icontitle iconClass="fa-solid fa-microchip" title="Numerical" >}}
 
 {{< multicolumnlist >}}
 
@@ -74,7 +74,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Scipy**
   {{< /multicolumnlist >}}
 
-#### Networking
+{{< icontitle iconClass="fa-solid fa-network-wired" title="Networking" >}}
 
 {{< multicolumnlist >}}
 
@@ -83,7 +83,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **WebSockets**
   {{< /multicolumnlist >}}
 
-#### DevOps
+{{< icontitle iconClass="fa-solid fa-cubes" title="DevOps" >}}
 
 {{< multicolumnlist >}}
 
@@ -95,7 +95,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Vim**
   {{< /multicolumnlist >}}
 
-##### Data viz
+{{< icontitle iconClass="fa-solid fa-chart-line" title="Data viz" >}}
 
 {{< multicolumnlist >}}
 
@@ -104,11 +104,12 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Pandas**
   {{< /multicolumnlist >}}
 
-#### Frontend
+{{< icontitle iconClass="fa-solid fa-palette" title="Frontend" >}}
 
 {{< multicolumnlist >}}
 
 - **VueJS**
+- **Hugo**
   {{< /multicolumnlist >}}
 
 ---
