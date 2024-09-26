@@ -210,6 +210,11 @@ nav a {
 
     .thumbnail-container {
         grid-area: thumbnail;
+        display: flex;
+        justify-content: center;
+    }
+    .thumbnail-img {
+        max-height: 650px;
     }
 
     .toc-container {
