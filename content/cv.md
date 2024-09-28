@@ -29,7 +29,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - Led the migration to GitHub, establishing reproducible test environments for Grazper’s CI/CD pipelines on
   self-hosted GitHub runners. Deployed a self-hosted package registry for managing Python and npm packages,
   and Docker images, improving significantly the development process of the entire company. Check out
-  [the post](/posts/self_hosted_github_runners) for more details.
+  [this post](/posts/self_hosted_github_runners) for more details.
 
 {{< position title="Master Thesis Student" duration="07/2022 - 02/2023" >}}
 
@@ -115,7 +115,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 {{< multicolumnlist >}}
 
 - **Hugo**
-- VueJS {{< /multicolumnlist >}}
+- Vue {{< /multicolumnlist >}}
 
 ---
 
