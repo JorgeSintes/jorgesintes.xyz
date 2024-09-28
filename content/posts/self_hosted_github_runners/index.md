@@ -33,7 +33,7 @@ For some organizations, it might be worth considering GitHub's
 a Kubernetes operator that orchestrates and scales self-hosted runners. However, setting up something like
 this for our small company (~10 engineers) would be like using a bazooka to kill flies—and it would likely
 mean spending the rest of my career here solely maintaining this system. Plus, if the machine is powerful
-enough, you can just set up several runners in paralel. So, we'll pass.
+enough, you can just set up several runners in parallel. So, we'll pass.
 
 ## On self-hosted runners
 
@@ -114,7 +114,7 @@ dependencies. Nice! (_Wait, what about the gpu?_)[^3]
     [Gitea](https://docs.gitea.com/usage/packages/container).
 
     I personally went with **Gitea**, since we can use it for self-hosting not only docker containers, but
-    python, deb and npm packages and it supports LDAP authentication out of the box. Gitea is an amazing pice
+    python, deb and npm packages and it supports LDAP authentication out of the box. Gitea is an amazing piece
     of software, it's extremely popular, well-maintained, and their package registry is
     [one of the most complete out there](https://docs.gitea.com/usage/packages/overview). Check it out!
 
@@ -239,7 +239,7 @@ As mentioned in
 , you can setup a cleanup job to run either at the start or the end of a job by setting
 `ACTIONS_RUNNER_HOOK_JOB_STARTED` or `ACTIONS_RUNNER_HOOK_JOB_COMPLETED`, respectively. I personally find it
 quite convenient to have access to the written files post-job for debugging purposes, so I'll set up my
-cleanup job to run at the beggining. You'll need to place your cleanup script somewhere outside the
+cleanup job to run at the beginning. You'll need to place your cleanup script somewhere outside the
 `actions-runner` folder.
 
 ```bash
