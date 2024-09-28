@@ -152,7 +152,7 @@ find something similar to:
 
 ```bash
 /usr/bin/docker create \
-    --name 90e78535e458472585903abd70a20877_ubuntu_a8ba9b \
+    --name 90e78535e458472585903and70a20877_ubuntu_a8ba9b \
     --label 836fe2 --workdir /__w/my-repo/my-repo \
     --network github_network_a7dd0070ad3346999fd4f51fd5d5059b \
     -e "HOME=/github/home" \
@@ -223,7 +223,7 @@ sudo ./svc.sh start
 Having the runner as `root` means people would have the power to destroy our machine (picture a good ol'
 `rm -rf /`, or a much more twisted and ... `apt-get remove nvidia-driver-*`). However, somewhere in
 [the page to configure self-hosted runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/customizing-the-containers-used-by-jobs)
-they mention the existance of an environment variable, `ACTIONS_RUNNER_REQUIRE_JOB_CONTAINER` which we can set
+they mention the existence of an environment variable, `ACTIONS_RUNNER_REQUIRE_JOB_CONTAINER` which we can set
 to `true` to prevent this.
 
 To do so, append the following line to the `actions-runner/.env` file:
