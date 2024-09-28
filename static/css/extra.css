@@ -199,6 +199,10 @@ nav a {
     width: 1rem;
 }
 
+.text-container p{
+    text-align: justify;
+}
+
 @media (min-width: 1024px) {
     .article-grid {
         grid-template-columns: 75% 25%;
