@@ -1,3 +1,6 @@
-**Hello there!** I'm a Spanish computational mathematician, general engineer, and musician based in Copenhagen, specializing in deep learning with a strong passion for software engineering.
+**Hola!** I'm Jorge, a Spanish Machine Learning software developer and occasional musician currently living in
+Copenhagen. Welcome to my website!
 
-Welcome to my website! Here, I share my experiences and insights, and I hope you'll find my posts both informative and helpful. Feel free to reach out with any questions or comments—I'd love to hear from you. Thanks for stopping by!
+Here, I share what I’m working on, the challenges I face, and the solutions I come up with, sometimes with a
+bit of humor. If you've got questions or just want to chat, don't hesitate to get in touch. Thanks for
+stopping by!
