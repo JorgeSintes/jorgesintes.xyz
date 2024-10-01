@@ -98,6 +98,7 @@ nav a {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1.5rem;
 }
 
 .article-link img {
@@ -109,11 +110,15 @@ nav a {
 }
 
 .article-link .text {
-    width: 65%;
+    width: 68%;
 }
 
 .article-link a {
     text-decoration: none;
+}
+
+.article-link p {
+    text-align: justify;
 }
 
 @media (max-width: 1023px) {

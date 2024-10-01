@@ -1,20 +1,17 @@
 <article class="article-link">
-    <div class="thumbnail">
-        <a href="{{ .RelPermalink }}">
-            <img src="{{ .RelPermalink }}/thumbnail.jpg" alt="Thumbnail for {{ .Title }}">
-        </a>
-    </div>
-    <div class="text">
-        <hgroup>
-            <h2>
-                <a href="{{ .RelPermalink }}">
-                    {{ .Title }}
-                </a>
-            </h2>
-            <time datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</time>
-        </hgroup>
-        <p>
-            {{ .Summary }}
-        </p>
-    </div>
+  <div class="thumbnail">
+    <a href="{{ .RelPermalink }}">
+      <img src="{{ .RelPermalink }}/thumbnail.jpg" alt="Thumbnail for {{ .Title }}" />
+    </a>
+  </div>
+  <div class="text">
+    <hgroup>
+      <h2>
+        <a href="{{ .RelPermalink }}"> {{ .Title }} </a>
+      </h2>
+      <p datetime="{{ .Date }}">{{ .Date.Format "January 2, 2006" }}</p>
+    </hgroup>
+    <hr />
+    <p>{{ .Summary }}</p>
+  </div>
 </article>
