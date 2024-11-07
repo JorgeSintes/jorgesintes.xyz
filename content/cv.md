@@ -99,15 +99,16 @@ baseURL: "https://jorgesintes.xyz/cv/"
 - **Git**
 - **GitHub Actions**
 - Gitea (packages)
-- Linux
+- Prometheus
 - Vim {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-chart-line" title="Data viz" >}}
 
 {{< multicolumnlist >}}
 
-- **Matplotlib**
+- **Grafana**
 - **Pandas**
+- **Matplotlib**
 - Plotly/Dash {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-palette" title="Frontend" >}}
