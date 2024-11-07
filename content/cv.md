@@ -108,7 +108,7 @@ baseURL: "https://jorgesintes.xyz/cv/"
 
 - **Grafana**
 - **Pandas**
-- **Matplotlib**
+- Matplotlib
 - Plotly/Dash {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-palette" title="Frontend" >}}
