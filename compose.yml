@@ -9,11 +9,11 @@ services:
       - "traefik.enable=true"
 
         # HTTPS Router
-      - "traefik.http.routers.hugo-secure.rule=Host(`jorgesintes.xyz`)"
+      - "traefik.http.routers.hugo-secure.rule=Host(`jorgesintes.xyz`) || Host(`www.jorgesintes.xyz`)"
       - "traefik.http.routers.hugo-secure.entrypoints=https"
       - "traefik.http.routers.hugo-secure.tls.certresolver=letsencrypt"
         # HTTP Router for Redirect
-      - "traefik.http.routers.hugo.rule=Host(`jorgesintes.xyz`)"
+      - "traefik.http.routers.hugo.rule=Host(`jorgesintes.xyz`) || Host(`www.jorgesintes.xyz`)"
       - "traefik.http.routers.hugo.entrypoints=http"
     networks:
       - shared_network
