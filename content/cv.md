@@ -7,7 +7,7 @@ showTableOfContents: true
 showReadingTime: false
 baseURL: "https://jorgesintes.xyz/cv/"
 runtimeDownloads:
-  - path: /files/Jorge_Sintes_CV.pdf
+  - path: /files/jorge-sintes-cv.pdf
     label: Open CV as PDF
 ---
 
@@ -27,11 +27,13 @@ runtimeDownloads:
 
 - Led the company's **migration from Gitea to GitHub**, establishing reproducible CI/CD workflows on containerized **self-hosted GitHub runners** for privacy-sensitive dataset and model pipelines. Check out [this post](/posts/self_hosted_github_runners) for more details.
 
+- Deployed and maintained core internal platform infrastructure, including a **self-hosted package registry**, **Prometheus + Grafana** for observability, and **MLflow** for experiment tracking and model deployment workflows.
+
 {{< position title="Master Thesis Student" duration="07/2022 - 02/2023" >}}
 
-- Researched and developed a method to enhance 3D human pose estimation using an IoT sole pressure system to
-  improve accuracy with fewer cameras. Designed a supervised model that predicts sole pressure, enabling
-  real-world applications without the IoT device.
+- Researched methods to **improve 3D human pose estimation** using IoT sole-pressure sensors.
+
+- Designed a supervised model predicting pressure signals to **enable pose estimation without physical sensors**.
 
 {{< company_title companyName="Novo Nordisk" url="https://www.novonordisk.com" logoLight="/company_logos/novo_nordisk_logo.svg" logoDark="/company_logos/novo_nordisk_logo.svg" >}}
 
@@ -145,11 +147,11 @@ runtimeDownloads:
 
 Here are some of the projects I've done in the past or I'm currently doing now:
 
-- [ScaleGuru](https://scaleguru.jorgesintes.xyz/) \
-  Written entirely in TypeScript. A tool designed for musicians to refine their mastery of scales and keys. The
-  tool asks for a given scale in a specific key, hiding the scale so that users must play from memory. It allows
-  for playback to check if the scale was played correctly (ear training) or displays the scale for users who are
-  still learning it.
+- [ScaleGuru](https://scaleguru.jorgesintes.dev/) \
+  A web tool for practicing musical scales and keys, designed for daily use in my own music practice. Built with
+  **TypeScript**, with ear-training and visualization features for structured instrument practice.
+- [PureGym Telegram Bot](https://github.com/JorgeSintes/puregym-bot) \
+  Telegram bot for automating PureGym booking workflows and personal gym schedule management.
 - [Sudoku Solver](https://github.com/JorgeSintes/sudoku_project) \
   Toy project where I build a web-app solution that lets you upload a picture of a sudoku and solves it. Currently
   in development.
@@ -159,22 +161,35 @@ Here are some of the projects I've done in the past or I'm currently doing now:
   imagines performing a task.
 - [Time Series Anomaly Detection with Variational AutoEncoder and GRU](https://github.com/JorgeSintes/Advanced_Machine_Learning)
   \
-  Project for DTU's course Advanced Machine Learning researching the potential of using Variational Autoencoders
-  in combination with RNNs for anomaly detection on time-series data. Download the paper [here](https://github.com/JorgeSintes/Advanced_Machine_Learning/raw/master/Time_Series_Anomaly_Detection_VAE_GRU.pdf).
+  Research project for DTU's Advanced Machine Learning course exploring ways of combining VAEs with RNNs to detect
+  anomalies in real-world time-series data from vehicle telemetry, including the design and training of novel hybrid
+  architectures. Read the paper [here](/files/time-series-anomaly-detection-vae-gru.pdf).
 
 ---
 
 ## Education
 
 - [MSc in Mathematical Modelling and Computation](https://www.dtu.dk/english/education/graduate/msc-programmes/mathematical-modelling-and-computation)
-  at [DTU](https://www.dtu.dk/): _09/2020 - 02/2023_\
-  Worked on courses and group projects involving different topics in machine learning, computer science and applied
-  mathematics: deep learning, bayesian machine learning, MLOps, algorithms and data structures, high performance
-  computing, dynamical systems theory, stochastic processes, optimization...
+  at [Technical University of Denmark (DTU)](https://www.dtu.dk/): _09/2020 - 02/2023_\
+  Worked on courses and group projects across machine learning, computer science, and applied mathematics, with
+  relevant topics including deep learning, Bayesian machine learning, algorithms and data structures, high-performance
+  computing, optimization, and stochastic processes.
 
 - [BSc + MSc in General Engineering](https://www.upv.es/titulaciones/MUII/index-en.html) at
   [UPV](https://www.upv.es/): _09/2015 - 07/2020_\
-  Studied a broad variety of courses in general engineering competences, including maths, physics, statistics,
-  thermodynamics, materials, mechanics, electronics, automatics and electrical engineering, among others. Specialized
-  in Electrical Engineering thanks to the research internship I did in the department of Electrical Engineering.
-  Additionally, I studied Jazz at the same time at Sedajazz music academy in Valencia.
+  Broad engineering education covering mathematics, physics, statistics, thermodynamics, materials, mechanics,
+  electronics, automatics, and electrical engineering. Specialized further in Electrical Engineering through a
+  research internship in the department of Electrical Engineering.
+
+---
+
+## Other Activities
+
+{{< icontitle iconClass="fa-solid fa-music" title="Music" >}}
+
+Trombonist performing in orchestras, jazz ensembles, and modern music bands. I also practice classical guitar and
+jazz improvisation, and studied Jazz in parallel at Sedajazz music academy in Valencia.
+
+{{< icontitle iconClass="fa-solid fa-chalkboard-user" title="Teaching" >}}
+
+One-to-one tutoring in technical subjects during university; I enjoy helping others understand complex concepts.
