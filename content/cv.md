@@ -7,9 +7,8 @@ showTableOfContents: true
 showReadingTime: false
 baseURL: "https://jorgesintes.xyz/cv/"
 runtimeDownloads:
-  - path: /files/cv.pdf
-    label: Download CV as PDF
-    filename: Jorge_Sintes_CV.pdf
+  - path: /files/Jorge_Sintes_CV.pdf
+    label: Open CV as PDF
 ---
 
 ## Experience
