@@ -28,5 +28,8 @@ jobs:
           script: |
             set -eu
             cd "$DEPLOY_PATH"
+            git fetch origin main
+            git checkout main
+            git pull --ff-only origin main
             docker compose down
             docker compose up --build -d
