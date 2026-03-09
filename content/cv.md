@@ -37,14 +37,15 @@ runtimeDownloads:
 
 {{< position title="Data Science Student" duration="06/2021 - 07/2022" >}}
 
-- I was responsible for data processing, analysis and visualization of the HR department of Novo's main
-  production site.
+- Performed **data processing, statistical analysis, and visualization** for the HR department of Novo Nordisk's largest production site.
+- Built automated pipelines for **data collection, cleaning, and reporting**.
+- Developed forecasting models to **predict workforce population trends**.
 
 {{< company_title companyName="DTU" url="https://www.dtu.dk" logoLight="/company_logos/dtu_logo_light.png" logoDark="/company_logos/dtu_logo_light.png" >}}
 {{< position title="Teaching Assistant" duration="02/2021 - 06/2021" >}}
 
-- Assisting in the course **02450 - Intro to Machine Learning and Data Mining**. I taught a group of 40+
-  students during weekly labs.
+- Assisted teaching the course **02450 -- Introduction to Machine Learning and Data Mining**.
+- Supervised weekly labs for **40+ students** and evaluated course projects.
 
 ## Technical skills
 
@@ -53,12 +54,32 @@ runtimeDownloads:
 {{< multicolumnlist >}}
 
 - **Python**
-- TypeScript/JavaScript
-- HTML/CSS
+- **TypeScript/JavaScript**
+- Bash
 - C/C++
+- HTML/CSS
 - LaTeX
-- Matlab
-- Bash {{< /multicolumnlist >}}
+- Matlab {{< /multicolumnlist >}}
+
+{{< icontitle iconClass="fa-solid fa-server" title="Backend / APIs" >}}
+
+{{< multicolumnlist >}}
+
+- **FastAPI**
+- **Pydantic**
+- SQLAlchemy
+- Alembic
+- Flask
+- WebSockets {{< /multicolumnlist >}}
+
+{{< icontitle iconClass="fa-solid fa-database" title="Databases" >}}
+
+{{< multicolumnlist >}}
+
+- **PostgreSQL**
+- SQL
+- data modeling
+- DB migrations {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-circle-nodes" title="Machine learning" >}}
 
@@ -69,40 +90,42 @@ runtimeDownloads:
 - MLflow
 - OpenCV
 - Scikit-learn
-- Fiftyone {{< /multicolumnlist >}}
+- FiftyOne {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-microchip" title="Numerical" >}}
 
 {{< multicolumnlist >}}
 
-- **Numpy**
+- **NumPy**
 - Autograd
-- Scipy {{< /multicolumnlist >}}
+- SciPy {{< /multicolumnlist >}}
 
-{{< icontitle iconClass="fa-solid fa-network-wired" title="Networking" >}}
-
-{{< multicolumnlist >}}
-
-- **Flask**
-- FastApi
-- WebSockets {{< /multicolumnlist >}}
-
-{{< icontitle iconClass="fa-solid fa-cubes" title="DevOps" >}}
+{{< icontitle iconClass="fa-solid fa-cubes" title="Infrastructure / DevOps" >}}
 
 {{< multicolumnlist >}}
 
 - **Docker**
 - **Git**
 - **GitHub Actions**
+- self-hosted runners
+- Linux
 - Gitea (packages)
-- Prometheus
 - Vim {{< /multicolumnlist >}}
+
+{{< icontitle iconClass="fa-solid fa-shield-halved" title="Observability / Auth" >}}
+
+{{< multicolumnlist >}}
+
+- **Prometheus**
+- **Grafana**
+- Microsoft Entra ID
+- OpenID Connect
+- OAuth 2.0 {{< /multicolumnlist >}}
 
 {{< icontitle iconClass="fa-solid fa-chart-line" title="Data viz" >}}
 
 {{< multicolumnlist >}}
 
-- **Grafana**
 - **Pandas**
 - Matplotlib
 - Plotly/Dash {{< /multicolumnlist >}}
@@ -111,8 +134,10 @@ runtimeDownloads:
 
 {{< multicolumnlist >}}
 
+- **Vue**
 - **Hugo**
-- Vue {{< /multicolumnlist >}}
+- Pinia
+- Three.js {{< /multicolumnlist >}}
 
 ---
 
