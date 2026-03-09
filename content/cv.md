@@ -12,24 +12,17 @@ baseURL: "https://jorgesintes.xyz/cv/"
 
 {{< company_title companyName="Grazper Technologies" url="https://www.grazper.com" logoLight="/company_logos/grazper_logo_light.svg" logoDark="/company_logos/grazper_logo_dark.svg" >}}
 
-{{< position title="Software developer" duration="04/2023 - Present" >}}
+{{< position title="Machine Learning Software developer" duration="04/2023 - Present" >}}
 
-- Responsible for developing Grazper’s model training pipeline, training and optimizing pose estimation and
-  box detection models central to our human pose recognition system.
+- Led the redesign of a legacy multi-camera annotation tool into a modern **FastAPI + Vue** web application tailored to Grazper's large-scale multi-camera 3D datasets, enabling **~10 internal annotators** to work efficiently through a novel **3D-first interaction model** for pose correction and review.
 
-- Developed and maintained a 3D human-pose annotation web application, now actively used by annotators to
-  label our in-house dataset.
+- Built database-backed backend services for recordings, drafts, poses, tracklets, and user workflows using **PostgreSQL, SQLAlchemy, Alembic, and Pydantic**.
 
-- Built an auto-annotation system using state-of-the-art models and postprocessing to accelerate the
-  annotation process.
+- Designed and implemented **authentication and user provisioning with Microsoft Entra ID / OpenID Connect**, enabling secure company-wide access to the annotation platform.
 
-- Automated key steps in the recording pipeline (actor registration, video export, and auto-annotation)
-  through custom scripts and applications.
+- Co-designed and integrated an **auto-annotation pipeline** and supported model-development efforts for human pose recognition, contributing to training workflows and design discussions around detection and pose-estimation systems.
 
-- Led the migration to GitHub, establishing reproducible test environments for Grazper’s CI/CD pipelines on
-  self-hosted GitHub runners. Deployed a self-hosted package registry for managing Python and npm packages,
-  and Docker images, improving significantly the development process of the entire company. Check out
-  [this post](/posts/self_hosted_github_runners) for more details.
+- Led the company's **migration from Gitea to GitHub**, establishing reproducible CI/CD workflows on containerized **self-hosted GitHub runners** for privacy-sensitive dataset and model pipelines. Check out [this post](/posts/self_hosted_github_runners) for more details.
 
 {{< position title="Master Thesis Student" duration="07/2022 - 02/2023" >}}
 
