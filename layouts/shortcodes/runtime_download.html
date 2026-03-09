@@ -1,16 +1,1 @@
-{{ $path := .Get "path" }}
-{{ $label := .Get "label" | default "Download file" }}
-{{ $filename := .Get "filename" }}
-
-<div class="runtime-download-container" data-runtime-download-container hidden>
-  <a
-    class="runtime-download-button"
-    href="{{ $path }}"
-    data-runtime-download-url="{{ $path }}"
-    {{ with $filename }}download="{{ . }}"{{ end }}
-    role="button"
-  >
-    <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
-    <span>{{ $label }}</span>
-  </a>
-</div>
+{{ partial "runtime_download.html" (dict "path" (.Get "path") "label" (.Get "label") "filename" (.Get "filename")) }}

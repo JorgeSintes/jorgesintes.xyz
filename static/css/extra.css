@@ -171,14 +171,38 @@ nav a {
     width: 75%;
 }
 
+.page-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.page-header-main h1 {
+    margin-bottom: 0;
+}
+
+.page-header-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+    margin-left: auto;
+}
+
 .runtime-download-container {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
 }
 
 .runtime-download-button {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
+}
+
+.page-header hr {
+    width: 100%;
 }
 
 /* single.html */
@@ -254,6 +278,15 @@ nav a {
 
 
 @media (max-width: 1023px) {
+    .page-header {
+        align-items: stretch;
+    }
+
+    .page-header-actions {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
     .article-grid {
         grid-template-columns: 100%;
         grid-template-rows: auto auto auto;
