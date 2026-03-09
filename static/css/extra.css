@@ -171,6 +171,16 @@ nav a {
     width: 75%;
 }
 
+.runtime-download-container {
+    margin-bottom: 2rem;
+}
+
+.runtime-download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 /* single.html */
 .article-grid {
     display: grid;

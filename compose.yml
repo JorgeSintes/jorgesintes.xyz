@@ -1,17 +1,19 @@
 services:
   hugo:
     build: .
-    container_name: jorgesintes_xyz
+    container_name: jorgesintes_dev
+    volumes:
+      - ./uploaded-files:/usr/share/nginx/html/files
     labels:
       - "traefik.enable=true"
 
       # HTTPS Router
-      - "traefik.http.routers.hugo-secure.rule=Host(`jorgesintes.xyz`) || Host(`www.jorgesintes.xyz`) || Host(`jorgesintes.dev`) || Host(`www.jorgesintes.dev`)"
+      - "traefik.http.routers.hugo-secure.rule=Host(`jorgesintes.dev`) || Host(`www.jorgesintes.dev`)"
       - "traefik.http.routers.hugo-secure.entrypoints=https"
       - "traefik.http.routers.hugo-secure.tls.certresolver=letsencrypt"
 
       # HTTP Router for Redirect
-      - "traefik.http.routers.hugo.rule=Host(`jorgesintes.xyz`) || Host(`www.jorgesintes.xyz`) || Host(`jorgesintes.dev`) || Host(`www.jorgesintes.dev`)"
+      - "traefik.http.routers.hugo.rule=Host(`jorgesintes.dev`) || Host(`www.jorgesintes.dev`)"
       - "traefik.http.routers.hugo.entrypoints=http"
       - "traefik.http.routers.hugo.middlewares=redirect-to-https"
 

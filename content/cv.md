@@ -8,6 +8,8 @@ showReadingTime: false
 baseURL: "https://jorgesintes.xyz/cv/"
 ---
 
+{{< runtime_download path="/files/cv.pdf" label="Download CV as PDF" filename="Jorge_Sintes_CV.pdf" >}}
+
 ## Experience
 
 {{< company_title companyName="Grazper Technologies" url="https://www.grazper.com" logoLight="/company_logos/grazper_logo_light.svg" logoDark="/company_logos/grazper_logo_dark.svg" >}}
